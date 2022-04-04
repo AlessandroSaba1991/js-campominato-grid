@@ -28,7 +28,6 @@ function active_cell(element, colour) {
 const element_form = document.querySelector("form");
 element_form.addEventListener("submit", function(event) {
     event.preventDefault();
-    document.getElementById('site_main').classList.toggle('d-none')
     const difficolta = document.getElementById("difficolta").value;
     switch (true) {
         case difficolta === "facile":
