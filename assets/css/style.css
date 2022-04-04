@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#site_main {
+    background-color: aquamarine;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.cells {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square_10 {
+    width: calc(100% / 10);
+    border: 1px solid black;
+    aspect-ratio: 1 / 1;
+}
